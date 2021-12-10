@@ -1,0 +1,163 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+/* NavBar */
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background: white;
+  width: 20%;
+  max-height: 100%;
+  left: 0px;
+  top: 0px;
+  }
+  
+
+  .appLogo {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  
+  .appLogo img {
+    width: 30px;
+    height: 30px;
+    margin-top: 18px;
+    margin-right: 5px;
+  }
+  
+  .appLogo h4 {
+    margin-top: 25px;
+  }
+  
+  
+  a {
+    text-decoration: none;  
+  }
+  
+  
+  .navItems {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .navItem {
+  position : relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 10px;
+  height: 30px;
+  border-radius: 4px;
+  color: #FFFF;
+  font-size: 18px;
+  }
+  
+  
+  .navItem p {
+    margin: 3px 0px 0px 0px ;
+  }
+  
+
+  
+  .navItem:hover {
+    border : 1px solid black
+  }
+  
+
+
+  /* Home Page */
+
+.home-container{
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.searchBar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Tweets */
+
+.tweet-container{
+  background-color: #FFFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.tweet-div{
+  width: 50%;
+}
+
+/* classifier form */
+
+
+.classifier-container{
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 50%;
+}
+
+
+.form{
+  border-radius: 5px;
+  border : 1px solid #A9A9A9;
+  background-color: #FFFF;
+  padding-bottom: 10px;
+}
+.form-inputs{
+  display: flex;
+  flex-direction: row;
+  margin : 10px;
+  justify-content: center;
+}
+
+.form-selects{
+  display: flex;
+  flex-direction: row;
+  margin : 10px;
+  justify-content: center;
+}
+
+
+
+
+
+
+.tweetsProportions{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.score{
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  border-radius: 5px;
+  border : 1px solid #A9A9A9;
+  background-color: #FFFF;
+  margin: 7px 0px 0px 150px;
+}
